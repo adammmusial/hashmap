@@ -81,8 +81,10 @@ export default class HashMap {
 
     }
 
-    count(){
+
+    length(){
         let keyCount = 0;
+        
         for (const bucket of this.buckets) {
             if (bucket) { 
                 keyCount += bucket.length; 
@@ -90,4 +92,17 @@ export default class HashMap {
         }
         return keyCount;
     }
+
+    clear(){
+        this.buckets = [];
+    }
+
+    keys(){} 
+    // returns an array containing all the keys inside the hash map.
+
+    values(){}
+    // returns an array containing all the values.
+
+    entries(){}
+
 }
