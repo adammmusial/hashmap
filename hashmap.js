@@ -97,9 +97,18 @@ export default class HashMap {
         this.buckets = [];
     }
 
-    keys(){} 
-    // returns an array containing all the keys inside the hash map.
-
+    keys() {
+        let keys = [];
+        for (const bucket of this.buckets) {
+            if (bucket) {  
+                for (const [key, _] of bucket) {  
+                    keys.push(key);  
+                }
+            }
+        }
+        return keys; 
+    }
+    
     values(){}
     // returns an array containing all the values.
 
