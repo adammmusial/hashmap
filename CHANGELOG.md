@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/adammmusial/hashmap/compare/v1.3.0...v1.4.0) (2024-04-14)
+
+
+### Features
+
+* add keys() metgod to HashMap class returning keys as an Array ([3836960](https://github.com/adammmusial/hashmap/commit/3836960cd60e38ed07a7cd2ea71b633b5073fb9f))
+* add keys() method to Map() class to return keys as an Array ([e980a4a](https://github.com/adammmusial/hashmap/commit/e980a4a16143c7ffe721f5a565ffc9417272bf9e))
+* add values() method to HashMap class to return values in an Array ([c7ddb6c](https://github.com/adammmusial/hashmap/commit/c7ddb6c6e80bbc8ddfc9ea556697e02a9b4464e4))
+* add values() method to Map class to return values in an Array ([e71d8e1](https://github.com/adammmusial/hashmap/commit/e71d8e1ad8bc8700779b32a443b2811c0656eead))
+* clear() method to clear HashMap ([021066a](https://github.com/adammmusial/hashmap/commit/021066ae8b7694e8bb187184efc884b3979ef8a3))
+
 ## [1.3.0](https://github.com/adammmusial/hashmap/compare/v1.2.0...v1.3.0) (2024-04-14)
 
 
