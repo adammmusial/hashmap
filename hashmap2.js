@@ -28,6 +28,10 @@ export default class MapProto {
         return this.hashmap.values();
     }
 
+    entries(){
+        return Array.from(this.hashmap.entries())
+    }
+
   }
 
 
