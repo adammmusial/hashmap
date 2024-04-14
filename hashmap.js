@@ -63,6 +63,24 @@ class HashMap {
         }
     }
 
+    remove(key){
+        const index = this.hash(key)
+        const bucket = this.buckets[index]
+
+
+        if (!bucket){
+            return null
+        }
+
+        for (let i = 0; i < bucket.length; i++){
+            if (bucket[i][0] === key){
+                bucket.splice(i,0);
+                return;
+            }
+        }
+
+    }
+
 
 
 }
