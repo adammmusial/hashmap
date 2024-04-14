@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/adammmusial/hashmap/compare/v1.4.0...v1.5.0) (2024-04-14)
+
+
+### Features
+
+* add entries() function to Hashmap class to retrieve key value pairs ([f6f7bb6](https://github.com/adammmusial/hashmap/commit/f6f7bb655c8ec6d1e8335c86012d46195973edd7))
+* add entries() function to MapProto class to retrieve key value pairs ([902a0a8](https://github.com/adammmusial/hashmap/commit/902a0a81aa2c2caa3867e8bae1cd9c2f60d22733))
+
+
+### Bug Fixes
+
+* change clas name from Map to MapProto ([2b4b5a3](https://github.com/adammmusial/hashmap/commit/2b4b5a37fdd5e1a2dd74e0ae1ed63a112bc9c201))
+
 ## [1.4.0](https://github.com/adammmusial/hashmap/compare/v1.3.0...v1.4.0) (2024-04-14)
 
 
