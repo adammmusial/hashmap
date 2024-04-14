@@ -109,8 +109,19 @@ export default class HashMap {
         return keys; 
     }
     
-    values(){}
-    // returns an array containing all the values.
+    values() {
+        let resultValues = [];
+        for (const bucket of this.buckets) {
+            if (bucket) {  
+                for (const [_, values] of bucket) {  
+                    resultValues.push(values);  
+                }
+            }
+        }
+        return resultValues; 
+    }
+
+    
 
     entries(){}
 
