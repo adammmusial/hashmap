@@ -82,34 +82,12 @@ export default class HashMap {
     }
 
     count(){
-        var count = 0;
-        for ( property in hash_table ) count++;
+        let keyCount = 0;
+        for (const bucket of this.buckets) {
+            if (bucket) { 
+                keyCount += bucket.length; 
+            }
+        }
+        return keyCount;
     }
 }
-
-
-class Map {
-    constructor() {
-      this.hashmap = new Map();
-    }
-    get(key) {
-      return this.hashmap.get(key);
-    }
-    set(key, value) {
-      this.hashmap.set(key, value);
-    }
-    delete(key) {
-      this.hashmap.delete(key);
-    }
-    clear() {
-      this.hashmap.clear();
-    }
-    size() {
-      return this.hashmap.size;
-    }
-    has(key) {
-      return this.hashmap.has(key);
-    }
-  }
-  module.exports = Cache;
-  
