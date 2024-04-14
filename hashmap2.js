@@ -21,7 +21,11 @@ class Map {
       return this.hashmap.has(key);
     }
     keys(){
-        return Array.from(this.hashmap.keys())
+        return Array.from(this.hashmap.keys());
+    }
+
+    values(){
+        return this.hashmap.values();
     }
   }
 
