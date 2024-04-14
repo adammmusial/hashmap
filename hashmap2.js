@@ -1,4 +1,4 @@
-class Map {
+export default class MapProto {
     constructor() {
       this.hashmap = new Map();
     }
@@ -27,7 +27,8 @@ class Map {
     values(){
         return this.hashmap.values();
     }
+
   }
 
-  module.exports = Map;
+
   
