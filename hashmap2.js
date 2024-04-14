@@ -20,7 +20,10 @@ class Map {
     has(key) {
       return this.hashmap.has(key);
     }
+    keys(){
+        return Array.from(this.hashmap.keys())
+    }
   }
-  
+
   module.exports = Map;
   
