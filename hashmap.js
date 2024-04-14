@@ -51,4 +51,18 @@ class HashMap {
 
         return null
     }
+
+    has(key){
+        const index = this.hash(key)
+        const bucket = this.buckets[index]
+        if (bucket = true){
+         return true
+        }
+        else {
+            return false
+        }
+    }
+
+
+
 }
