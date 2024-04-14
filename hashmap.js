@@ -108,7 +108,7 @@ export default class HashMap {
         }
         return keys; 
     }
-    
+
     values() {
         let resultValues = [];
         for (const bucket of this.buckets) {
@@ -120,9 +120,18 @@ export default class HashMap {
         }
         return resultValues; 
     }
+    entries() {
+        let resultEntries = [];
+        for (const bucket of this.buckets) {
+            if (bucket) {  
+                for (const [keys, values] of bucket) {  
+                    resultEntries.push([keys,values]);  
+                }
+            }
+        }
+        return resultEntries; 
+    }
 
     
-
-    entries(){}
 
 }
