@@ -1,0 +1,16 @@
+{
+  "name": "hashmap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/adammmusial/hashmap.git",
+  "author": "adammmusial <musialadam83@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "standard-version": "^9.5.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "release": "standard-version"
+  },
+  "type": "module"
+}
