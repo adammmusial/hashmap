@@ -10,7 +10,7 @@ I created a custom HashMap in JavaScript to understand how hash tables work unde
 - Compared custom data structures with built-in JavaScript objects
 
 ## Features
-- **set(key, value)**: Assigns a value to a key. If the key exists, the value is updated.
+- 'set(key, value)' Assigns a value to a key. If the key exists, the value is updated.
 - **get(key)**: Returns the value for a given key. If the key is not found, returns null.
 - **has(key)**: Checks if a key exists in the hash map. Returns true or false.
 - **remove(key)**: Removes the entry with the given key. Returns true if the key was removed, false if the key was not found.
