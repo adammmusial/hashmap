@@ -9,6 +9,17 @@ I created a custom HashMap in JavaScript to understand how hash tables work unde
 - Developed methods for common data operations
 - Compared custom data structures with built-in JavaScript objects
 
+## Features
+- **set(key, value)**: Assigns a value to a key. If the key exists, the value is updated.
+- **get(key)**: Returns the value for a given key. If the key is not found, returns null.
+- **has(key)**: Checks if a key exists in the hash map. Returns true or false.
+- **remove(key)**: Removes the entry with the given key. Returns true if the key was removed, false if the key was not found.
+- **length()**: Returns the number of stored keys.
+- **clear()**: Removes all entries.
+- **keys()**: Returns an array of all keys.
+- **values()**: Returns an array of all values.
+- **entries()**: Returns an array of key-value pairs.
+
 ## Technologies Used
 <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" width="50">
 
