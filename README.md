@@ -14,4 +14,3 @@ I created a custom HashMap in JavaScript to understand how hash tables work unde
 
 ## Resources Used
 - **JavaScript Documentation**: For understanding the Map object and its methods.
-- **Online tutorials**: Various online resources for learning about hash tables and custom data structure implementations.
